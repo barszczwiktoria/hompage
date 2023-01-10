@@ -1,0 +1,33 @@
+.section {
+    padding: 25px, 0;
+}
+
+.section__header{
+    color: black;
+}
+
+.section__img {
+    border-radius: 20%;
+    box-shadow: 5px 10px 5px 10px rgba(170, 170, 170, 0.597);
+}
+
+.section__image section__image--dog {
+    border-radius: 10%;
+}
+
+.section__scrollUp {
+    text-decoration: none;
+    color: teal;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.section__button {
+
+    text-decoration: none;
+    color: rgba(23, 23, 23, 0.843);
+    font-weight: 900;
+    background-color: rgb(76, 165, 169);
+    cursor: pointer;
+}
+

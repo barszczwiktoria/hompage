@@ -1,0 +1,133 @@
+home.<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O mnie</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/tableContainer.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@1,200;1,600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="body">
+    <div class="container">
+        <header class="header">
+            <h1 class="header__title">Wiktoria Barszcz </h1>
+            <nav>
+                <ul class="navigation">
+                    <li class="navigation__item"><a class="navigation__link" href="#o-mnie">O mnie</a> </li>
+                    <li class="navigation__item"><a class="navigation__link" href="#zainteresowania">Zainteresowania</a>
+                    </li>
+                    <li class="navigation__item"><a class="navigation__link" href="#gucio">Gucio</a> </li>
+                    <li class="navigation__item"><a class="navigation__link" href="#utwory">Utwory do śpiewania</a> </li>
+                    <li class="navigation__item"><a class="navigation__link" href="#akcja">Interakcja</a> </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="section">
+                <h2 class="section__header" id="o-mnie">Kilka słów o mnie</h2>
+                <p>Mam 29 lat. Mieszkam w Warszawie. <br> Skończyłam finanse i rachunkowość oraz szkołę muzyczną w
+                    klasie
+                    <strong>wokalistyki estradowej.</strong> <br> Pracuję w korporacji jako analityk, ale jeszcze nie
+                    czuję
+                    że
+                    to
+                    jest moje miejsce, stąd pomysł na naukę programowania.
+            </section>
+            <img class="section__image" width=200 src="https://i.postimg.cc/PNzNx6nV/unnamed.jpg" alt="me">
+
+            <section class="section">
+                <h2 class="section__header" id="zainteresowania">Co więcej?</h2>
+                <p>Kocham podróże, do tej pory zwiedziłam <em>18 krajów</em>, na liście do zobaczenia jest ich jeszcze
+                    50,
+                    przede
+                    wszystkim
+                    cała Europa, Stany Zjednoczone, Indie, Argentyna i Brazylia. <br>
+                    W wolnych chwilach czytam ksiąki oraz oglądam filmy - głównie dramaty i komedie. Również śpiewam,
+                    głównie
+                    poezję śpiewaną i <i>jazz</i>.
+                    Codziennie chodzę na spacery z moim pieskiem - <b>Guciem</b>.
+            </section>
+            <img class="section__image section__image--dog" id="gucio" width=300 src="https://i.postimg.cc/Bjynyk2b/unnamed.png" alt="me">
+
+            <section class="tableContainer">
+                <table class="table" id="utwory">
+                    <caption class="table__caption">Ulubiolne utwory do śpiewania</caption>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="col">Tytuł</th>
+                        <th class="table__cell table__cell--header" scope="col">Wykonawca</th>
+                        <th class="table__cell table__cell--header" scope="col">Rok wydania</th>
+                        <th class="table__cell table__cell--header" scope="col">Moje nagranie YT</th>
+                        <th class="table__cell table__cell--header" scope="col">Link do YT</th>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Rebeka</th>
+                        <td class="table__cell">Ewa Demarczyk</td>
+                        <td class="table__cell">1975</td>
+                        <td class="table__cell">✓</td>
+                        <td class="table__cell"><a class=".table__link" target="_blank"
+                                href="https://www.youtube.com/watch?v=HmDoSUsoGBU">Rebeka</a></td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Grand Valse Brillante</th>
+                        <td class="table__cell">Ewa Demarczyk</td>
+                        <td class="table__cell">1967</td>
+                        <td class="table__cell">-</td>
+                        <td class="table__cell">-</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">You simply the best</th>
+                        <td class="table__cell">Tina Turner</td>
+                        <td class="table__cell">1989</td>
+                        <td class="table__cell">✓</td>
+                        <td class="table__cell"><a class=".table__link" target="_blank" href="https://youtu.be/fej5jLVgk20?t=630">
+                                Simply the best
+                            </a>
+                        </td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Lover man</th>
+                        <td class="table__cell">Billie Holiday</td>
+                        <td class="table__cell">1941</td>
+                        <td class="table__cell">✓</td>
+                        <td class="table__cell"><a class=".table__link" target="_blank"
+                                href="https://www.youtube.com/watch?v=eYpRssn_Uxs">Lover
+                                man</a>
+                        </td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Come away with me</th>
+                        <td class="table__cell">Norah Jones</td>
+                        <td class="table__cell">2007</td>
+                        <td class="table__cell">-</td>
+                        <td class="table__cell">-</td>
+                    </tr>
+
+                </table>
+            </section>
+            <section class="section">
+                <h2 class="section__header">Akcja</h2>
+                <p> <button class="section__button" id="akcja">Kliknij i sprawdź</button></p>
+                <p> <button class="section__button js-changeBackground">Zmień tło na <span class="js-changeColor">białe</span>
+                </button></p>
+                <p> <button class="section__button js-scrollUp">Powrót do góry strony</button></p>
+            </section>
+
+        </main>
+    </div>
+
+    <footer class="footer">© Wiktoria Barszcz 2022</footer>
+</body>
+</html>

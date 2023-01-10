@@ -1,0 +1,31 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family: 'Inter Tight', sans-serif;
+    line-height: 2;
+    margin: 0;
+    background-color: rgb(185, 205, 207);
+}
+
+.body--white {
+    background-color: white;
+   }
+    
+.container {
+    padding: 0 30px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.header__title {
+    color: rgba(3, 99, 216, 0.832);
+    background-color: rgba(169, 160, 195, 0.533);
+    text-align: center;
+}
+
