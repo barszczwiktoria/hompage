@@ -14,4 +14,5 @@ My site is simple for now but practice makes us better 💪
 - CSS
 - JavaScript
 - BEM
+- ES6+ features
 
