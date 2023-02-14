@@ -14,5 +14,4 @@ My site is simple for now but practice makes us better 💪
 - CSS
 - JavaScript
 - BEM
-
-[gif] (file:///Users/frontendw./Desktop/homepage.gif)
+- ES6+ features
