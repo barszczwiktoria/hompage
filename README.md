@@ -16,4 +16,4 @@ My site is simple for now but practice makes us better 💪
 - BEM
 - ES6+ features
 
-![gif] (images/homegif.gif)
+![gif](images/homegif.gif)
