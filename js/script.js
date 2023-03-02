@@ -3,7 +3,6 @@
         console.log("Hello world!")
     }
 
-
     const toggleBackground = () => {
         const body = document.querySelector(".js-body");
         const changeColor = document.querySelector(".js-changeColor");
@@ -11,7 +10,6 @@
         body.classList.toggle("body--white");
         changeColor.innerText = body.classList.contains("body--white") ? "szare" : "białe";
     };
-
 
     const removeTable = () => {
         const button = document.querySelector(".section__button");
@@ -28,8 +26,6 @@
         }); // czy funkcja strzałkowa moze byc uzyta w funkcji strzałkowej? nie mam pomys jak to zapisać
     }
 
-
-
     const init = () => {
         const changeBacground = document.querySelector(".js-changeBackground");
         changeBacground.addEventListener("click", toggleBackground);
@@ -42,6 +38,6 @@
 
         welcome();
     }
-
+    
     init()
 }
